@@ -82,6 +82,29 @@ _unit setUnitTrait ["engineer",false];
 //RANK
 _unit setRank "CORPORAL";
 
+//EXTRA GEAR
+if (count lmf_loadout_fnc_teamLeader_Extra != 0) {
+	{
+		if (count _x == 2) {
+			if (_x select 1 == 1) {
+				_unit addItem (_x sekect 0);
+			} else {
+				for "_i" from 1 to (_x select 1) do {_unit addItem (_x sekect 0);};
+			}
+		}
+	} forEach lmf_loadout_fnc_teamLeader_Extra
+};
+if (count lmf_loadout_fnc_All_Extra != 0) {
+	{
+		if (count _x == 2) {
+			if (_x select 1 == 1) {
+				_unit addItem (_x sekect 0);
+			} else {
+				for "_i" from 1 to (_x select 1) do {_unit addItem (_x sekect 0);};
+			}
+		}
+	} forEach lmf_loadout_fnc_All_Extra;
+};
 
 // RETURN /////////////////////////////////////////////////////////////////////////////////////////
 true

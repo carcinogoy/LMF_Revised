@@ -206,3 +206,30 @@ private _Gun_Crew = 1; // Vehicle Crew
 //AIR
 private _Gun_HP = 1; // Helicopter Pilot
 private _Gun_HC = 2; // Helicopter Crew
+
+//EXTRA GEAR
+// First is classname second is count
+// [["ACE_packingBandage", 15], ["ACE_morphine", 2]]
+// Will add 15 packing bandages and 2 morphines
+private lmf_loudout_fnc_All_Extra = []; // Add to all unit types
+private lmf_loadout_fnc_platoonLeader_Extra = [];
+private lmf_loadout_fnc_platoonSergeant_Extra = [];
+private lmf_loadout_fnc_rto_Extra = [];
+private lmf_loadout_fnc_fac_Extra = [];
+private lmf_loadout_fnc_squadLeader_Extra = [];
+private lmf_loadout_fnc_teamLeader_Extra = [];
+private lmf_loadout_fnc_rifleman_Extra = [];
+private lmf_loadout_fnc_grenadier_Extra = [];
+private lmf_loadout_fnc_autorifleman_Extra = [];
+private lmf_loadout_fnc_marksman_Extra = [];
+private lmf_loadout_fnc_medic_Extra = [];
+private lmf_loadout_fnc_ammoBearer_Extra = [];
+private lmf_loadout_fnc_machineGunner_Extra = [];
+private lmf_loadout_fnc_machineGunnerAssistant_Extra = [];
+private lmf_loadout_fnc_atGunner_Extra = [];
+private lmf_loadout_fnc_atAssistant_Extra = [];
+private lmf_loadout_fnc_engineer_Extra = [];
+private lmf_loadout_fnc_crew_Extra = [];
+private lmf_loadout_fnc_heloPilot_Extra = [];
+private lmf_loadout_fnc_heloCrew_Extra = [];
+private lmf_loadout_fnc_pilot_Extra = [];
