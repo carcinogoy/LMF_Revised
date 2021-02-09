@@ -86,9 +86,9 @@ if (count lmf_loadout_fnc_autorifleman_Extra != 0) {
 	{
 		if (count _x == 2) {
 			if (_x select 1 == 1) {
-				_unit addItem (_x sekect 0);
+				_unit addItem (_x select 0);
 			} else {
-				for "_i" from 1 to (_x select 1) do {_unit addItem (_x sekect 0);};
+				for "_i" from 1 to (_x select 1) do {_unit addItem (_x select 0);};
 			}
 		}
 	} forEach lmf_loadout_fnc_autorifleman_Extra
@@ -97,9 +97,9 @@ if (count lmf_loadout_fnc_All_Extra != 0) {
 	{
 		if (count _x == 2) {
 			if (_x select 1 == 1) {
-				_unit addItem (_x sekect 0);
+				_unit addItem (_x select 0);
 			} else {
-				for "_i" from 1 to (_x select 1) do {_unit addItem (_x sekect 0);};
+				for "_i" from 1 to (_x select 1) do {_unit addItem (_x select 0);};
 			}
 		}
 	} forEach lmf_loadout_fnc_All_Extra;
